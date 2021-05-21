@@ -92,6 +92,15 @@ module.exports = {
       filename: "index.html",
       template: "./src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "turky.html",
+      template: "./src/turky.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "egypt.html",
+      template: "./src/egypt.html",
+    }),
+    
     new MiniCssExtractPlugin ({filename:"css/style.css" }),
 
 

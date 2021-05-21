@@ -9,7 +9,6 @@ import 'bootstrap';
 import 'webpack-jquery-ui';
 import 'webpack-jquery-ui/css';
 import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
-
 $(window).scroll(function(){
     if($(this).scrollTop()>=500){
        $("#navBar").addClass("noTransparrent");
@@ -17,4 +16,18 @@ $(window).scroll(function(){
        $("#navBar").removeClass("noTransparrent");
      }
  });
- 
+ $(document).ready(function() {
+  var slider = $("#slideshow");
+  var slider_nav = $("#slideshow-nav");
+  slider_nav.find("a[href=#slide1]").addClass("active");
+
+  slider_nav.localScroll({
+    target:'#carouselExampleIndicators',
+    axis: 'x'
+  });
+
+  slider_nav.find("a").click(function(){
+    slider_nav.find("a").removeClass("active");
+    $(this).addClass("active");
+  });
+});
