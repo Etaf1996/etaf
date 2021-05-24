@@ -97,6 +97,14 @@ module.exports = {
       template: "./src/turky.html",
     }),
     new HtmlWebpackPlugin({
+      filename: "contact.html",
+      template: "./src/contact.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "contact1.html",
+      template: "./src/contact1.html",
+    }),
+    new HtmlWebpackPlugin({
       filename: "egypt.html",
       template: "./src/egypt.html",
     }),

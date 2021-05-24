@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-free/js/all.min';
 import 'bootstrap';
 import 'webpack-jquery-ui';
 import 'webpack-jquery-ui/css';
-import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
+import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';z
 $(window).scroll(function(){
     if($(this).scrollTop()>=500){
        $("#navBar").addClass("noTransparrent");
@@ -30,4 +30,9 @@ $(window).scroll(function(){
     slider_nav.find("a").removeClass("active");
     $(this).addClass("active");
   });
+  var myCollapsible = document.getElementById('myCollapsible')
+myCollapsible.addEventListener('hidden.bs.collapse', function () {
+  // do something...
+})
+
 });
