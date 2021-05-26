@@ -11,38 +11,24 @@
 </head>
 
    
-<body> 
+ 
   
-    <div class="container-fluid">
-    <div class="row">
-        <nav class="navbar custom-navbar navbar-expand-lg">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggler btn btn-icon collapsed"  data-toggle="collapse" data-target="#navbarSupportedContent" >
-                        <i class="fas fa-bars"></i>
-                    </button>    
-                  <span>
-                    
-                    سفرني
-                  
-                  </span>
-                    <a href="index.html" class="navbar-brand">
-                      
-                       <img src="images/airplane-take-off.png" alt="سفرني">
-                       
+    <body class="mt-5 rtl">
+        <div class="layer"></div>
+      <div id="top-menu">
+          <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>                      
+                  <a class="navbar-brand" href="index.html">
+                    <b>
+                        <a class="navbar-brand" href="index.html">
+                            سفرني
+                      <span class="video-icon p-1">  <img src="images/airplane-take-off.png" alt="سفرني"></span>
                     </a>
-                </div>
-                <form  class="form-inline ">
-                    <input type="search" placeholder="أبحث .." class="form-control custom-form-control">
-                    <div class="dropdown categories">
-                       
-                        
-                    </div>
-                    <button type="button" class="btn search-btn">
-                        أبحث
-                    </button>
-                </form>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </b>              
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link ">الصفحة الرئيسية</a>
@@ -52,15 +38,27 @@
                             <a href="#" class="nav-link">البحث المتقدم</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.html" class="nav-link">تواصل معنا</a>
+                            <a href="contact1.html" class="nav-link">تواصل معنا</a>
                         </li>
                        
                     </ul>
-                </div>    
-            </div>    
-        </nav>
-    </div>
+                    
+                </div>
+                <form  class="form-inline ">
+                    <input type="search" placeholder="أبحث .." class="form-control custom-form-control .d-lg-none .d-xl-block">
+                    <div class="dropdown categories">
+                       
+                        
+                    </div>
+                    <button type="button" class="btn search-btn">
+                        أبحث
+                    </button>
+                </form>      
+              </nav>
     
+              </div>
+            </div>
+            
     <section class="about" id="about">
         <div class="title text-center">
             <h2>
@@ -90,6 +88,7 @@
   </div>
 
 </div>
+
 </section>
             <section class="serves" id="serves">
                 ‎ <div class="title text-center">
@@ -240,12 +239,13 @@
                                                         <i class="fas fa-plane"></i>
                                                     </div>
                                                     <div class="float-left">
-                                                        <button class="btn custom-arrow-btn" data-target="#carousel-brand-turky" data-slide="prev">
-                                                            <i class="fas fa-chevron-right"></i>
-                                                        </button>
-                                                        <button class="btn custom-arrow-btn" data-target="#carousel-brand-turky" data-slide="next">
-                                                            <i class="fas fa-chevron-left"></i>
-                                                        </button>
+                                                        <button class="btn custom-arrow-btn" type="button" data-bs-target="#carousel-brand-turky" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                          </button>
+                                                          <button class="btn custom-arrow-btn" type="button" data-bs-target="#carousel-brand-turky" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                          </button>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -326,14 +326,16 @@
                                                 <div class="clearfix">
                                                     <div class="float-right">
                                                         <div class="brand-text">سفرني:</div>
-                                                        <i class="fas fa-plane"></i>                                                    </div>
+                                                        <i class="fas fa-plane"></i>                                                  
+                                                      </div>
                                                     <div class="float-left">
-                                                        <button class="btn custom-arrow-btn" data-target="#carousel-brand-cairo" data-slide="prev">
-                                                            <i class="fas fa-chevron-right"></i>
-                                                        </button>
-                                                        <button class="btn custom-arrow-btn" data-target="#carousel-brand-cairo" data-slide="next">
-                                                            <i class="fas fa-chevron-left"></i>
-                                                        </button>
+                                                        <button class="btn custom-arrow-btn" type="button" data-bs-target="#carousel-brand-cairo" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                          </button>
+                                                          <button class="btn custom-arrow-btn" type="button" data-bs-target="#carousel-brand-cairo" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                          </button>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
