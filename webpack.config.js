@@ -39,18 +39,22 @@ module.exports = {
 
       },
       {
-        test: /\.(sa|sc|c)ss$/,
-        use: [
+        test: /\.(sass|css|scss)$/,
+            use: [
+              // Creates `style` nodes from JS strings
               {
                 loader: MiniCssExtractPlugin.loader, 
                 options: {
-                  publicPath: '../' 
+                  publicPath: '../'
                 }
               },
-              'css-loader',
+              // Translates CSS into CommonJS
+              "css-loader",
+              // Compiles Sass to CSS
+              "sass-loader",
+            ],
+          },
 
-            ]
-      },
       {
         test: /\.(svg|eot|woff|woff2|ttf)$/,
         use: [

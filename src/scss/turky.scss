@@ -1,0 +1,81 @@
+@import './_variable.scss';
+
+section {
+
+	&.about1 {
+		background-image: url(../images/turky1.jpg);
+		padding: 130px 0 60px;
+		.title {
+
+			margin-bottom: 50px;
+			h2 {
+				font-size: 40px;
+				line-height: 60px;
+			}
+		}
+	}
+}
+section {
+	&.head {
+		.container {
+			position: relative;
+			margin-top: 20%;
+		}
+		.text-block {
+			position: initial;
+			bottom: 20px;
+			right: 20px;
+			background-color: #3d332e;
+			color: $custom-color;
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-top: 20%;
+		}
+	}
+}
+
+section {
+	&.slider {
+		padding: 80px 0;
+		.title {
+			margin-bottom: 60px;
+			h3 {
+				font-size: 36px;
+				margin-bottom: 20% !important;
+			}
+		}
+		.carousel-inner {
+			width: 60%;
+			margin: 0 auto;
+		}
+		.carouselExampleIndicators {
+			padding: 0;
+			bottom: -60px;
+		}
+		.carousel-indicators {
+			button {
+				max-width: 20px;
+				height: 20px;
+				border: 1px solid $slider-color;
+				border-radius: 50%;
+				padding-left: 15px;
+				margin-left: 5px;
+				margin-bottom: 70%;
+				&.active {
+					background-color: $slider-color;
+				}
+			}
+		}
+	}
+}
+section.slider .carousel-control-next,
+section.slider .carousel-control-prev {
+	width: 70px;
+	height: 70px;
+	border: 1px solid $slider-color;
+	border-radius: 50%;
+	color: $slider-color;
+	opacity: 1;
+	margin-top: 130px;
+	background-color: $slider-color;
+}
