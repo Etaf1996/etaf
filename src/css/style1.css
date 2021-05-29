@@ -19,6 +19,10 @@ a {
   color: #000 !important;
   text-decoration: none !important; /*لحذف الخط تحت الرابط*/
 }
+a:hover 
+a:focus{
+  color:#fafafa;
+}
 /*تغيير الألوان الإفتراضية لجميع الأزرار في الموقع*/
 
 /*flex يجب علينا وضع هذه الخاصية للابن "جسم البطاقة" لأن البطاقة لديها قيمة عرض*/
@@ -58,6 +62,7 @@ a {
   color: #32a0c2 !important;
   background-color: transparent !important;
 }
+
 /*إخفاء الظل الذي يظهر حول مربع البحث والأزرار عند الضغط عليه*/
 input.form-control:focus,
 button:focus {
@@ -85,23 +90,6 @@ button:focus {
   color: #fff !important;
   background-color: #32a0c2 !important;
   border: 1px solid #32a0c2 !important;
-}
-.who-are-we .custom-paragraph {
-  line-height: 2em;
-}
-.who-are-we .company-name {
-  color: #000;
-}
-.custom-btn-main {
-  padding: 20px;
-  background-color: #32a0c2 !important;
-  color: #fff;
-  font-weight: bold;
-  width: 250px;
-}
-.custom-btn-main .custom-btn-main:hover {
-  color: #000 !important;
-  
 }
 
 
@@ -469,7 +457,8 @@ section.turkry .card:hover .card-block p {
  .custom-breadcrumb{
   background-color: transparent;
   padding: 25px 0;
-  font-size: 25px;
+  font-size: 20px;
+  margin-right: 10px !important;
 }
 .custom-breadcrumb>li+li::before{
  content: ">";
@@ -552,6 +541,11 @@ section.services .card:hover .card-block p {
 /*****************************************************************/   
 #map{
   padding: 0;
+}
+#contact-options .row{
+  margin-right: 0px !important;
+	margin-left: 0px !important;
+
 }
 #contact-options h4{
   font-size: 18px;
@@ -643,11 +637,19 @@ section.head .text-block {
 margin-left: 10px;
 }
 @media (max-width: 1115px) {
+  .navbar .search-icon {
+    display: inline;
+}
   section.contacts .info-map{
     width: 500;
   }
     
 
+}
+@media (min-width: 1115px) {
+  .search-input {
+      display: none !important;
+  }
 }
 @media (max-width: 995px) {
   section.serves .servess .media img {
@@ -662,7 +664,12 @@ margin-left: 10px;
   }
  }
  @media (max-width: 770px) {
-  
+  form .form-control{
+    width: 50% !important;
+  }
+  .form-control{
+    width: 70% !important;
+  }
   #footer-nav #newsletter{
     width: auto;
 }
@@ -700,13 +707,6 @@ margin-top: 20% !important;
 }
  }
  @media (max-width: 575px) {
-  .form-inline .custom-form-control {
-    width: 80%;
-}
-
-.form-inline .search-btn {
-    width: 20%;
-}
 
   
   header .overlay .slider .carousel-control-prev i,

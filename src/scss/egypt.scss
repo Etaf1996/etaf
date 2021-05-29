@@ -2,11 +2,14 @@
 
 section {
 
-	&.aboutc {
-		background-image: url(../images/cairo1.jpg);
+	&.aboute {
+		background-image: url(../images/background.jpg);
+		width: 100% !important;
+		position: initial !important;
 		padding: 130px 0 60px;
+
 		.title {
-			margin-bottom: 50px;
+			margin-bottom: 300px;
 			h2 {
 				font-size: 40px;
 				line-height: 60px;

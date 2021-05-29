@@ -20767,11 +20767,13 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 section.about1 {
-  background-image: url(../images/turky1.jpg);
+  background-image: url(../images/background.jpg);
+  width: 100% !important;
+  position: initial !important;
   padding: 130px 0 60px;
 }
 section.about1 .title {
-  margin-bottom: 50px;
+  margin-bottom: 300px;
 }
 section.about1 .title h2 {
   font-size: 40px;
@@ -20836,14 +20838,16 @@ section.slider .carousel-control-prev {
   background-color: #0d7696;
 }
 
-section.aboutc {
-  background-image: url(../images/cairo1.jpg);
+section.aboute {
+  background-image: url(../images/background.jpg);
+  width: 100% !important;
+  position: initial !important;
   padding: 130px 0 60px;
 }
-section.aboutc .title {
-  margin-bottom: 50px;
+section.aboute .title {
+  margin-bottom: 300px;
 }
-section.aboutc .title h2 {
+section.aboute .title h2 {
   font-size: 40px;
   line-height: 60px;
 }
@@ -20940,6 +20944,183 @@ section.slider .carousel-control-prev {
   background-color: #0d7696;
 }
 
+section.con1 .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+section.con1 .map {
+  padding: 0;
+}
+section.con1 .contact-options .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+section.con1 .contact-options h4 {
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+section.con1 .contact-options textarea {
+  min-height: 128px;
+}
+section.con1 .contact-info {
+  margin-bottom: 25px;
+}
+section.con1 .contact-info svg {
+  color: #ccc44e;
+  font-size: 18px;
+  margin: 10px 10px 7px;
+  width: 25px;
+  text-align: center;
+}
+section.con1 .custom-input-details {
+  border-width: 2px;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 46px;
+  width: 97%;
+  padding: 0 16px;
+}
+section.con1 .custom-input-details:focus {
+  border-color: #ccc44e;
+  box-shadow: 0 0 1px #ccc44e;
+}
+section.con1 .custom-form-details input label {
+  border-width: 2px;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 46px;
+  width: 97%;
+  padding: 0 16px;
+}
+section.con1 .custom-form-details:focus {
+  border-color: #ccc44e;
+  box-shadow: 0 0 1px #ccc44e;
+}
+section.con1 .credit-card-info {
+  margin-right: 3%;
+}
+section.con1 .form-checkout h3 {
+  margin-top: 120px;
+  margin-bottom: 22px;
+  margin-left: 30px;
+}
+section.con1 .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+#contact-options button {
+  color: #000 !important;
+  margin-left: 8px;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+a:hover a:focus {
+  color: #fafafa !important;
+}
+
+section.con .row {
+  margin-right: 250% !important;
+  margin-left: 0px !important;
+}
+section.con .map {
+  padding: 0;
+}
+section.con .contact-options .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+section.con .contact-options h4 {
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+section.con .contact-options textarea {
+  min-height: 128px;
+}
+section.con .contact-info {
+  margin-bottom: 25px;
+}
+section.con .contact-info svg {
+  color: #ccc44e;
+  font-size: 18px;
+  margin: 10px 10px 7px;
+  width: 25px;
+  text-align: center;
+}
+section.con .custom-input-details {
+  border-width: 2px;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 46px;
+  width: 97%;
+  padding: 0 16px;
+}
+section.con .custom-input-details:focus {
+  border-color: #ccc44e;
+  box-shadow: 0 0 1px #ccc44e;
+}
+section.con .custom-form-details input label {
+  border-width: 2px;
+  border-radius: 3px;
+  font-size: 18px;
+  height: 46px;
+  width: 97%;
+  padding: 0 16px;
+}
+section.con .custom-form-details:focus {
+  border-color: #ccc44e;
+  box-shadow: 0 0 1px #ccc44e;
+}
+section.con .credit-card-info {
+  margin-right: 3%;
+}
+section.con .form-checkout h3 {
+  margin-top: 120px;
+  margin-bottom: 22px;
+  margin-left: 30px;
+}
+section.con .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+#contact-options button {
+  color: #000 !important;
+  margin-left: 8px;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary :hover .btn-primary :focus {
+  color: #000;
+}
+
 body {
   font-family: "JF Flat Regular", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
@@ -20984,16 +21165,40 @@ body {
   background-color: #32a0c2;
 }
 
-section.about {
+section.aboutc {
   background-image: url(../images/background.jpg);
+  width: 100% !important;
+  position: initial !important;
   padding: 130px 0 60px;
 }
-section.about .title {
-  margin-bottom: 50px;
+section.aboutc .title {
+  margin-bottom: 300px;
 }
-section.about .title h2 {
+section.aboutc .title h2 {
   font-size: 40px;
   line-height: 60px;
+}
+
+.who-are-we .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.who-are-we .custom-paragraph {
+  line-height: 2em;
+}
+.who-are-we .company-name {
+  color: #32a0c2;
+}
+
+.custom-btn-main {
+  padding: 20px;
+  background-color: #32a0c2 !important;
+  color: white;
+  font-weight: bold;
+  width: 250px;
+}
+.custom-btn-main:hover {
+  color: #000;
 }
 
 .latest-posts .card-body {
@@ -21228,6 +21433,10 @@ a {
   /*لحذف الخط تحت الرابط*/
 }
 
+a:hover a:focus {
+  color: #fafafa;
+}
+
 /*تغيير الألوان الإفتراضية لجميع الأزرار في الموقع*/
 /*flex يجب علينا وضع هذه الخاصية للابن "جسم البطاقة" لأن البطاقة لديها قيمة عرض*/
 /*تغيير لون القائمة العلوية*/
@@ -21299,26 +21508,6 @@ button:focus {
   color: #fff !important;
   background-color: #32a0c2 !important;
   border: 1px solid #32a0c2 !important;
-}
-
-.who-are-we .custom-paragraph {
-  line-height: 2em;
-}
-
-.who-are-we .company-name {
-  color: #000;
-}
-
-.custom-btn-main {
-  padding: 20px;
-  background-color: #32a0c2 !important;
-  color: #fff;
-  font-weight: bold;
-  width: 250px;
-}
-
-.custom-btn-main .custom-btn-main:hover {
-  color: #000 !important;
 }
 
 section.about {
@@ -21708,7 +21897,8 @@ section.turkry .card:hover .card-block p {
 .custom-breadcrumb {
   background-color: transparent;
   padding: 25px 0;
-  font-size: 25px;
+  font-size: 20px;
+  margin-right: 10px !important;
 }
 
 .custom-breadcrumb > li + li::before {
@@ -21809,6 +21999,11 @@ section.services .card:hover .card-block p {
   padding: 0;
 }
 
+#contact-options .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
 #contact-options h4 {
   font-size: 18px;
   padding-bottom: 12px;
@@ -21906,8 +22101,17 @@ section.head .text-block {
 }
 
 @media (max-width: 1115px) {
+  .navbar .search-icon {
+    display: inline;
+  }
+
   section.contacts .info-map {
     width: 500;
+  }
+}
+@media (min-width: 1115px) {
+  .search-input {
+    display: none !important;
   }
 }
 @media (max-width: 995px) {
@@ -21924,6 +22128,14 @@ section.head .text-block {
   }
 }
 @media (max-width: 770px) {
+  form .form-control {
+    width: 50% !important;
+  }
+
+  .form-control {
+    width: 70% !important;
+  }
+
   #footer-nav #newsletter {
     width: auto;
   }
@@ -21971,14 +22183,6 @@ section.slider .carousel-control-prev {
   }
 }
 @media (max-width: 575px) {
-  .form-inline .custom-form-control {
-    width: 80%;
-  }
-
-  .form-inline .search-btn {
-    width: 20%;
-  }
-
   header .overlay .slider .carousel-control-prev i,
 header .overlay .slider .carousel-control-next i {
     border: none !important;

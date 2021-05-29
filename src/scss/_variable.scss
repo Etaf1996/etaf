@@ -2,3 +2,12 @@ $main-color: #32a0c2;
 $custom-color: #EEE;
 $card-text-color: #a9a9a9;
 $slider-color:#0d7696;
+
+$btn-main-color-dark: darken($main-color, 25%);
+$btn-custom-color-dark: darken($custom-color, 25%);
+
+$btn-form-control-focus-dark: $btn-main-color-dark;
+
+
+
+

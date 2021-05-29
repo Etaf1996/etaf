@@ -1,6 +1,11 @@
 @import './turky.scss';
 @import './egypt.scss';
+@import './contact1.scss';
+@import './contact.scss';
 @import './_variable.scss';
+@import "./mixins";
+
+
 
 
 body {
@@ -55,11 +60,14 @@ body {
 }
 section {
 
-	&.about {
+	&.aboutc {
 		background-image: url(../images/background.jpg);
+		width: 100% !important;
+		position: initial !important;
 		padding: 130px 0 60px;
+
 		.title {
-			margin-bottom: 50px;
+			margin-bottom: 300px;
 			h2 {
 				font-size: 40px;
 				line-height: 60px;
@@ -67,6 +75,32 @@ section {
 		}
 	}
 }
+.who-are-we {
+	.row{
+    margin-right: 0px !important;
+	margin-left: 0px !important;
+	}
+    .custom-paragraph {
+        line-height: 2em;
+    }
+
+    .company-name {
+        color: $main-color;
+    }
+}
+
+.custom-btn-main {
+    padding: 20px;
+    background-color:$main-color !important;
+    color:white;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+        color : #000;
+    }
+}
+
 .latest-posts {
     .card-body {
         width: 90%;
