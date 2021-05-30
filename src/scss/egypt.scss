@@ -1,9 +1,48 @@
 @import './_variable.scss';
+#top-menue {
+    background-color: $custom-color !important;
+	.bg-light {
+	
+		padding-bottom: 0.1rem !important;
+		padding-top: 0rem !important;
+	}
+	.video-icon {
+		color: $custom-color;
+		border-radius: 15%;
+		margin-right: 15px;
+	}
+}
+.navbar {
+	.navbar-nav {
+		.nav-linkk {
+			margin-left: 30px;
+			padding-left: 20px;
+		}
+	}
+	input.form-control:focus,
+    button:focus {
+	box-shadow: none !important;
+}
+.form-inline {
+	.search-btn {
+		color: $custom-color !important;
+		background-color: $main-color !important;
+		border: 1px solid $main-color !important;
+		&:hover {
+			box-shadow: $custom-color !important;
+		}
+	}
+}
 
+}
+.navbar .navbar-nav .nav-linkk:hover,
+.navbar .navbar-nav .active>.nav-linkk {
+	color: $egypt-color;
+	border-bottom: 1px solid $egypt-color;
+}
 section {
-
 	&.aboute {
-		background-image: url(../images/background.jpg);
+		background-image: url(../images/baceg.jpg);
 		width: 100% !important;
 		position: initial !important;
 		padding: 130px 0 60px;
@@ -18,7 +57,10 @@ section {
 	}
 }
 section {
+
 	&.services {
+		background-color: $egypt-color;
+
 		padding: 120px 0 60px;
 		.title {
 			margin-bottom: 50px;
@@ -75,7 +117,7 @@ section {
 }
 
 section {
-	&.slider {
+	&.sliderr {
 		padding: 80px 0;
 		.title {
 			margin-bottom: 60px;
@@ -96,27 +138,79 @@ section {
 			button {
 				max-width: 20px;
 				height: 20px;
-				border: 1px solid $slider-color;
+				border: 1px solid $egypt-color;
 				border-radius: 50%;
 				padding-left: 15px;
 				margin-left: 5px;
 				margin-bottom: 70%;
 				&.active {
-					background-color: $slider-color;
+					background-color: $egypt-color;
 				}
 			}
 		}
 	}
 }
-section.slider .carousel-control-next,
-section.slider .carousel-control-prev {
+section.sliderr .carousel-control-next,
+section.sliderr .carousel-control-prev {
 	width: 70px;
 	height: 70px;
-	border: 1px solid $slider-color;
+	border: 1px solid $egypt-color;
 	border-radius: 50%;
-	color: $slider-color;
+	color: $egypt-color;
 	opacity: 1;
 	margin-top: 130px;
-	background-color: $slider-color;
+	background-color: $egypt-color;
+}
+@media (max-width: 770px) {
+	
+	section {
+		&.sliderr {
+			.title {
+				h3 {
+					margin-bottom: 30% !important;
+				}
+			}
+			.carousel-inner {
+				width: 80%;
+			}
+			.carousel-indicators {
+				button {
+					margin-bottom: 100%;
+				}
+			}
+		}
+	}
+	section.sliderr .carousel-control-next,
+	  section.sliderr .carousel-control-prev {
+		display: none;
+	}
+	
+   }
+   @media (max-width: 575px) {
+  
+	header .overlay .sliderr .carousel-control-prev i,
+	header .overlay .sliderr .carousel-control-next i {
+	border: none !important;
+}
+header {
+	.overlay {
+		.sliderr {
+			.carousel-caption {
+				h3 {
+					font-size: 20px !important;
+					line-height: 40px !important;
+				}
+			}
+		}
+	}
+}
+section {
+	&.sliderr {
+		.carousel-inner {
+			width: 100%;
+		}
+	}
 }
 
+  }
+  

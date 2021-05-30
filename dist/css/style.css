@@ -20767,7 +20767,7 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 section.about1 {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/Tyrkop.jpeg);
   width: 100% !important;
   position: initial !important;
   padding: 130px 0 60px;
@@ -20778,6 +20778,7 @@ section.about1 .title {
 section.about1 .title h2 {
   font-size: 40px;
   line-height: 60px;
+  margin-left: 5%;
 }
 
 section.head .container {
@@ -20793,6 +20794,49 @@ section.head .text-block {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20%;
+}
+
+.who-are .row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.who-are .custom-paragraph {
+  line-height: 2em;
+}
+.who-are .company-name {
+  color: #32a0c2;
+}
+
+.custom-btn-main {
+  padding: 20px;
+  background-color: #32a0c2 !important;
+  color: white;
+  font-weight: bold;
+  width: 250px;
+}
+.custom-btn-main:hover {
+  color: #000;
+}
+
+.latest-postss {
+  background-color: #0d7696;
+  padding-top: 20px !important;
+}
+.latest-postss .card-body {
+  width: 90%;
+  border: 1px solid #EEE;
+  border-radius: 5px;
+  position: relative;
+  background-color: #EEE;
+  top: -17px;
+  left: -5%;
+}
+.latest-postss .card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.latest-postss .card-text {
+  font-size: 14px;
 }
 
 section.slider {
@@ -20838,8 +20882,77 @@ section.slider .carousel-control-prev {
   background-color: #0d7696;
 }
 
+@media (max-width: 770px) {
+  section.slider .title h3 {
+    margin-bottom: 30% !important;
+  }
+
+  section.slider .carousel-control-next,
+section.slider .carousel-control-prev {
+    display: none;
+  }
+
+  section.slider .carousel-inner {
+    width: 80%;
+  }
+
+  section.slider .carousel-indicators button {
+    margin-bottom: 100%;
+  }
+}
+@media (max-width: 575px) {
+  header .overlay .slider .carousel-control-prev i,
+header .overlay .slider .carousel-control-next i {
+    border: none !important;
+  }
+
+  header .overlay .slider .carousel-caption h3 {
+    font-size: 20px !important;
+    line-height: 40px !important;
+  }
+
+  section.slider .carousel-inner {
+    width: 100%;
+  }
+}
+#top-menue {
+  background-color: #EEE !important;
+}
+#top-menue .bg-light {
+  padding-bottom: 0.1rem !important;
+  padding-top: 0rem !important;
+}
+#top-menue .video-icon {
+  color: #EEE;
+  border-radius: 15%;
+  margin-right: 15px;
+}
+
+.navbar .navbar-nav .nav-linkk {
+  margin-left: 30px;
+  padding-left: 20px;
+}
+.navbar input.form-control:focus,
+.navbar button:focus {
+  box-shadow: none !important;
+}
+.navbar .form-inline .search-btn {
+  color: #EEE !important;
+  background-color: #32a0c2 !important;
+  border: 1px solid #32a0c2 !important;
+}
+.navbar .form-inline .search-btn:hover {
+  box-shadow: #EEE !important;
+}
+
+.navbar .navbar-nav .nav-linkk:hover,
+.navbar .navbar-nav .active > .nav-linkk {
+  color: #ccc44e;
+  border-bottom: 1px solid #ccc44e;
+}
+
 section.aboute {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/baceg.jpg);
   width: 100% !important;
   position: initial !important;
   padding: 130px 0 60px;
@@ -20853,6 +20966,7 @@ section.aboute .title h2 {
 }
 
 section.services {
+  background-color: #ccc44e;
   padding: 120px 0 60px;
 }
 section.services .title {
@@ -20901,224 +21015,83 @@ section.services .card-block p {
   transition: all 1s ease;
 }
 
-section.slider {
+section.sliderr {
   padding: 80px 0;
 }
-section.slider .title {
+section.sliderr .title {
   margin-bottom: 60px;
 }
-section.slider .title h3 {
+section.sliderr .title h3 {
   font-size: 36px;
   margin-bottom: 20% !important;
 }
-section.slider .carousel-inner {
+section.sliderr .carousel-inner {
   width: 60%;
   margin: 0 auto;
 }
-section.slider .carouselExampleIndicators {
+section.sliderr .carouselExampleIndicators {
   padding: 0;
   bottom: -60px;
 }
-section.slider .carousel-indicators button {
+section.sliderr .carousel-indicators button {
   max-width: 20px;
   height: 20px;
-  border: 1px solid #0d7696;
+  border: 1px solid #ccc44e;
   border-radius: 50%;
   padding-left: 15px;
   margin-left: 5px;
   margin-bottom: 70%;
 }
-section.slider .carousel-indicators button.active {
-  background-color: #0d7696;
+section.sliderr .carousel-indicators button.active {
+  background-color: #ccc44e;
 }
 
-section.slider .carousel-control-next,
-section.slider .carousel-control-prev {
+section.sliderr .carousel-control-next,
+section.sliderr .carousel-control-prev {
   width: 70px;
   height: 70px;
-  border: 1px solid #0d7696;
+  border: 1px solid #ccc44e;
   border-radius: 50%;
-  color: #0d7696;
+  color: #ccc44e;
   opacity: 1;
   margin-top: 130px;
-  background-color: #0d7696;
+  background-color: #ccc44e;
 }
 
-section.con1 .row {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-}
-section.con1 .map {
-  padding: 0;
-}
-section.con1 .contact-options .row {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-}
-section.con1 .contact-options h4 {
-  font-size: 18px;
-  padding-bottom: 12px;
-}
-section.con1 .contact-options textarea {
-  min-height: 128px;
-}
-section.con1 .contact-info {
-  margin-bottom: 25px;
-}
-section.con1 .contact-info svg {
-  color: #ccc44e;
-  font-size: 18px;
-  margin: 10px 10px 7px;
-  width: 25px;
-  text-align: center;
-}
-section.con1 .custom-input-details {
-  border-width: 2px;
-  border-radius: 3px;
-  font-size: 18px;
-  height: 46px;
-  width: 97%;
-  padding: 0 16px;
-}
-section.con1 .custom-input-details:focus {
-  border-color: #ccc44e;
-  box-shadow: 0 0 1px #ccc44e;
-}
-section.con1 .custom-form-details input label {
-  border-width: 2px;
-  border-radius: 3px;
-  font-size: 18px;
-  height: 46px;
-  width: 97%;
-  padding: 0 16px;
-}
-section.con1 .custom-form-details:focus {
-  border-color: #ccc44e;
-  box-shadow: 0 0 1px #ccc44e;
-}
-section.con1 .credit-card-info {
-  margin-right: 3%;
-}
-section.con1 .form-checkout h3 {
-  margin-top: 120px;
-  margin-bottom: 22px;
-  margin-left: 30px;
-}
-section.con1 .collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
+@media (max-width: 770px) {
+  section.sliderr .title h3 {
+    margin-bottom: 30% !important;
+  }
+  section.sliderr .carousel-inner {
+    width: 80%;
+  }
+  section.sliderr .carousel-indicators button {
+    margin-bottom: 100%;
+  }
 
-#contact-options button {
-  color: #000 !important;
-  margin-left: 8px;
+  section.sliderr .carousel-control-next,
+section.sliderr .carousel-control-prev {
+    display: none;
+  }
 }
+@media (max-width: 575px) {
+  header .overlay .sliderr .carousel-control-prev i,
+header .overlay .sliderr .carousel-control-next i {
+    border: none !important;
+  }
 
-.btn-primary {
-  color: #000;
-  background-color: #007bff;
-  border-color: #007bff;
-}
+  header .overlay .sliderr .carousel-caption h3 {
+    font-size: 20px !important;
+    line-height: 40px !important;
+  }
 
-a {
-  color: #000 !important;
-  text-decoration: none !important;
+  section.sliderr .carousel-inner {
+    width: 100%;
+  }
 }
-a:hover a:focus {
-  color: #fafafa !important;
-}
-
 section.con .row {
-  margin-right: 250% !important;
-  margin-left: 0px !important;
-}
-section.con .map {
-  padding: 0;
-}
-section.con .contact-options .row {
   margin-right: 0px !important;
   margin-left: 0px !important;
-}
-section.con .contact-options h4 {
-  font-size: 18px;
-  padding-bottom: 12px;
-}
-section.con .contact-options textarea {
-  min-height: 128px;
-}
-section.con .contact-info {
-  margin-bottom: 25px;
-}
-section.con .contact-info svg {
-  color: #ccc44e;
-  font-size: 18px;
-  margin: 10px 10px 7px;
-  width: 25px;
-  text-align: center;
-}
-section.con .custom-input-details {
-  border-width: 2px;
-  border-radius: 3px;
-  font-size: 18px;
-  height: 46px;
-  width: 97%;
-  padding: 0 16px;
-}
-section.con .custom-input-details:focus {
-  border-color: #ccc44e;
-  box-shadow: 0 0 1px #ccc44e;
-}
-section.con .custom-form-details input label {
-  border-width: 2px;
-  border-radius: 3px;
-  font-size: 18px;
-  height: 46px;
-  width: 97%;
-  padding: 0 16px;
-}
-section.con .custom-form-details:focus {
-  border-color: #ccc44e;
-  box-shadow: 0 0 1px #ccc44e;
-}
-section.con .credit-card-info {
-  margin-right: 3%;
-}
-section.con .form-checkout h3 {
-  margin-top: 120px;
-  margin-bottom: 22px;
-  margin-left: 30px;
-}
-section.con .collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-#contact-options button {
-  color: #000 !important;
-  margin-left: 8px;
-}
-
-.btn-primary {
-  color: #000;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-.btn-primary :hover .btn-primary :focus {
-  color: #000;
 }
 
 body {
