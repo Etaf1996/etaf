@@ -12,3 +12,134 @@
         border-color: darken($color , 25%);
     }    
 }
+@mixin a-style($color) {
+    background-color:transparent;
+    color: $color !important;
+    border-color:$color !important;
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:focus,
+    &:active:hover{
+        background-color: transparent;
+        color:darken($color , 25%) ;
+        border-color: darken($color , 25%);
+    }    
+}
+@mixin egypt($color) {
+    .form-inline {
+        .search-btn {
+            color: $custom-color !important;
+            background-color: $main-color !important;
+            border: 1px solid $main-color !important;
+            &:hover {
+                box-shadow: $custom-color !important;
+            }
+        }
+    }
+    .navbar .navbar-nav .nav-linkk:hover,
+.navbar .navbar-nav .active>.nav-linkk {
+	color: $egypt-color;
+	border-bottom: 1px solid $egypt-color;
+}
+section
+&.services {
+    background-color: $egypt-color;
+}
+    .card-block {
+        h4 {
+            color: #1f3d3d;
+        }
+        p {
+            
+            color: #919191;
+        }
+}
+section
+&.sliderr
+    .carousel-indicators {
+        background-color:transparent;
+
+       button
+       &.active {
+            
+            border: 1px solid $egypt-color;
+            background-color: $egypt-color;
+            }
+        }
+   
+
+
+section.sliderr .carousel-control-next,
+section.sliderr .carousel-control-prev {
+border: 1px solid $egypt-color;
+background-color: $egypt-color;
+}
+
+}
+
+
+
+
+@mixin turky($color) {
+    
+    section {
+    &.head {
+		
+		.text-block {
+			
+			background-color: #3d332e;
+			color: $custom-color;
+			
+		}
+	}
+}
+.who-are {
+    .company-name {
+        color: $main-color;
+    }
+}
+.custom-btn-main {
+    padding: 20px;
+    background-color:$main-color !important;
+    color:white;
+    font-weight: bold;
+    width: 250px;
+
+    &:hover {
+        color : #000;
+    }
+}
+
+.latest-postss {
+	background-color: $turky-color;
+
+	    .card-body {
+        border: 1px solid $custom-color;
+       
+        background-color: $custom-color;
+        
+    }
+   
+}
+section
+&.slider
+    .carousel-indicators {
+        background-color:transparent;
+       button
+       &.active {
+            
+            border: 1px solid $egypt-color;
+            background-color: $egypt-color;
+            }
+        }
+   
+
+
+section.slider .carousel-control-next,
+section.slider .carousel-control-prev {
+
+border: 1px solid $egypt-color;
+background-color: $egypt-color;
+}
+}

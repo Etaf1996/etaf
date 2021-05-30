@@ -1,4 +1,6 @@
 @import './_variable.scss';
+@import "./mixins";
+
 #top-menue {
     background-color: $custom-color !important;
 	.bg-light {
