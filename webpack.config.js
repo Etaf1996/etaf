@@ -101,12 +101,12 @@ module.exports = {
       template: "./src/turky.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "contact.html",
-      template: "./src/contact.html",
+      filename: "login.html",
+      template: "./src/login.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "contact1.html",
-      template: "./src/contact1.html",
+      filename: "newaccount.html",
+      template: "./src/newaccount.html",
     }),
     new HtmlWebpackPlugin({
       filename: "egypt.html",

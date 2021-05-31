@@ -1,11 +1,11 @@
 @import './_variable.scss';
-@import "./mixins";
+@import './mixins';
 
 
 section {
 
 	&.about1 {
-		background-image: url(../images/Tyrkop.jpeg);
+		background-image: url(../images/Tyrkop.jpeg);		
 		width: 100% !important;
 		position: initial !important;
 		padding: 130px 0 60px;
